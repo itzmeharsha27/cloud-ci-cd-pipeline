@@ -10,6 +10,7 @@ A Node.js app automated with Docker and Jenkins CI/CD pipeline.
 4. npm run build
 5. docker build -t yourusername/cloudapp .
 6. docker run -d -p 3000:3000 --name app yourusername/cloudapp
+7.https://cloudapp-xyz.herokuapp.com
 
 ## Technologies Used
 - Node.js
