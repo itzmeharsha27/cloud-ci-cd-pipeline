@@ -23,4 +23,5 @@ A Node.js app automated with Docker and Jenkins CI/CD pipeline.
 4. Run App Locally
 
 ## Screenshots
-Include screenshots of the app running and Jenkins pipeline stages.
+Screenshots of the running app, Jenkins pipeline stages, and Docker setup are included in the `Screenshots` folder.
+
