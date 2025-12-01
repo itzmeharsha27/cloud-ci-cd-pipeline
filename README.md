@@ -1,28 +1,53 @@
-# Cloud CI/CD Pipeline Project
+# Cloud DevSecOps Factory (Student Version)
 
-## Description
-A Node.js app automated with Docker and Jenkins CI/CD pipeline.
+This project is inspired by the public **AWS DevSecOps Factory** architecture.  
+It demonstrates how to integrate **Cloud**, **Security**, and **DevSecOps** to build secure pipelines and infrastructure.
 
-## Steps to Run Locally
-1. Install Node.js, npm, Docker
-2. Clone repo
-3. npm install
-4. npm run build
-5. docker build -t yourusername/cloudapp .
-6. docker run -d -p 3000:3000 --name app yourusername/cloudapp
-7.https://cloudapp-xyz.herokuapp.com
+---
 
-## Technologies Used
-- Node.js
-- Docker
-- Jenkins
+## 📌 What This Project Covers
+- AWS Cloud Infrastructure (sample templates)
+- IAM, security controls, and encryption concepts
+- DevSecOps pipelines (GitHub Actions examples)
+- CI/CD with automated security scanning
+- Container security (Trivy / Snyk placeholders)
+- Kubernetes pipeline examples
+- Golden AMI pipeline example (concept-level)
+- Documentation, diagrams, and reports
 
-## Pipeline Overview
-1. Clone Repository
-2. Build App
-3. Build Docker Image
-4. Run App Locally
+---
 
-## Screenshots
-Screenshots of the running app, Jenkins pipeline stages, and Docker setup are included in the `Screenshots` folder.
+## ⚠️ Security Note
+This repository **does NOT contain**:
+- AWS account IDs  
+- Secrets or tokens  
+- Real ARNs  
+- Private endpoints  
+- Real S3 bucket names  
 
+
+
+## 📁 Repository Structure
+cloud-devsecops-factory/
+├─ cloudformation-pipeline/
+├─ docker-k8s-double-decker/
+├─ docker-pipeline-snyk/
+├─ docker-pipeline-wss/
+├─ flask-pipeline/
+├─ golang-pipeline/
+├─ golden-ami-pipeline/
+├─ k8s-pipeline/
+└─ terraform-pipeline/
+
+
+
+Each folder contains example pipelines or IaC templates used in a DevSecOps environment.
+
+---
+
+## 🛡️ Purpose of This Project
+This project is for **learning and demonstration** only:
+- Understand how secure cloud systems are designed  
+- Learn DevSecOps workflow  
+- Practice cloud pipelines  
+- Build a strong resume-ready project  
